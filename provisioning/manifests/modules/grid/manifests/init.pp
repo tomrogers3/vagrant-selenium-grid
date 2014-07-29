@@ -4,7 +4,7 @@ class grid(
 	) {
 
 	exec { 'clone_grid':
-		command     => "git clone https://github.com/benschw/docker-selenium-grid.git",
+		command     => "git clone https://github.com/tomrogers3/docker-selenium-grid.git",
 		user        => "vagrant",
 		cwd         => $target_dir,
 		require     => [
